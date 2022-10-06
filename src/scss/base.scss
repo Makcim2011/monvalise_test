@@ -1,8 +1,42 @@
 @import "bootstrap/scss/bootstrap";
 
 .page {
-  width: 1400px;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: rgb(28, 227, 171);
+  .navbar-bunner-message-top {
+    background-color: #CBDCFF;
+    align-self: stretch;
+
+    .header-message {
+      .header-message-icon-image-like {
+        margin: auto;
+        transform: rotate(-30deg);
+      }
+
+      .header-message-icon-image-dress {
+        margin: auto;
+        transform: rotare(30deg);
+      }
+
+      .header-message-text {
+        font-family: Stolzl;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #0F1A34;
+        margin-top: calc(16px/4);
+        margin-bottom: calc(16px/4);
+      }
+    }
+  }
+
+  .page__header {
+    .select-language {
+      border: none;
+    }
+
+    .btn-added-product {
+      padding: 10px, 20px, 10px, 20px;
+      border-radius: 4px;
+    }
+  }
+
 }
