@@ -48,11 +48,13 @@
               </form>
             </li>
             <li class="nav-item">
-              <div>
-                <button class="btn btn-dark btn-added-product" type="submit">Додати товар</button>
+              <div class="mx-4">
+                <button class="btn btn-dark px-4 py-2" type="submit">
+                 Додати товар
+                </button>
               </div>
             </li>
-            <li class="nav-item">
+            <li class="nav-item mx-3">
               <li class="nav-item dropdown">
                 <select class="form-select form-select-sm select-language" aria-label=".form-select-sm example">
                   <option selected>укр</option>
@@ -87,15 +89,18 @@
                 </span>
               </button>
             </li>
-            <li class="nav-item">
-              <li class="nav-item dropdown">
-                <select class="form-select form-select-sm select-language" aria-label=".form-select-sm example">
-                  <option selected>
-                    <img class="navbar-header-menu-avatar" src="src/images/avatar.svg" alt="cart image" style="width: 24px; height: 24px;">
-                  </option>
-                  <option value="1">en</option>
-                </select>
-              </li>
+            <li class="nav-item dropdown">
+              <a class="text-decoration-none" role="button" data-bs-toggle="dropdown" href="#" aria-expanded="false">
+                <img class="navbar-header-menu-avatar my-auto ms-4" src="src/images/avatar.svg" alt="avatar image" style="width: 32px; height: 32px;">
+                <img class="navbar-header-menu-avatar my-auto ms-1" src="src/images/s-bottom.svg" style="width: 12px; height: 12px;">
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Setting</a></li>
+                <li><a class="dropdown-item" href="#">Analytics</a></li>
+                <li><a class="dropdown-item" href="#">Report a problem</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Log out</a></li>
+              </ul>
             </li>
           </ul>
         </div>

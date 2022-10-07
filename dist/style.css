@@ -8411,6 +8411,7 @@ textarea.form-control-lg {
   border: none; }
 
 .page .page__header .btn-added-product {
+  background-color: #2d3132;
   padding: 10px, 20px, 10px, 20px;
   border-radius: 4px; }
 
