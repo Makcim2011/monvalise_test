@@ -8415,3 +8415,12 @@ textarea.form-control-lg {
   padding: 10px, 20px, 10px, 20px;
   border-radius: 4px; }
 
+.page .page__header .navbar-search-input {
+  border: 1.6px solid #e0e3e3;
+  border-radius: 4px; }
+  .page .page__header .navbar-search-input .navbar-header-icon-search {
+    width: 20px;
+    height: 20px; }
+  .page .page__header .navbar-search-input .navbar-input-space {
+    border: none; }
+
