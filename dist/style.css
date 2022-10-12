@@ -8389,6 +8389,58 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important; } }
 
+.banner .banner-breadcrumb .breadcrumb-item {
+  font-style: normal;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #2d3132;
+  text-decoration: none; }
+
+.banner .banner-breadcrumb .active {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #747778; }
+
+.banner .banner-filter-product {
+  padding-bottom: 1rem;
+  display: flex;
+  justify-content: space-between; }
+  .banner .banner-filter-product .banner-filter-product-text {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #5c5f60; }
+  .banner .banner-filter-product .banner-filter-product-select {
+    display: flex;
+    margin-left: auto;
+    margin-right: 1rem;
+    justify-content: space-between;
+    align-self: center;
+    align-items: center; }
+    .banner .banner-filter-product .banner-filter-product-select .banner-filter-product-select-list {
+      font-size: 12px;
+      display: block;
+      font-weight: 400;
+      line-height: 1.5;
+      color: #5c5f60;
+      margin-top: auto;
+      margin-bottom: auto;
+      padding-left: 1rem;
+      padding-right: 1rem; }
+    .banner .banner-filter-product .banner-filter-product-select .banner-filter-product-select-form {
+      border-radius: 100px;
+      background: #EFF1F1; }
+
+.banner .banner-title-breadcrumb-item-active {
+  padding-bottom: 1rem; }
+  .banner .banner-title-breadcrumb-item-active .banner-title-breadcrumb-item-active-text {
+    font-size: 28px;
+    line-height: 1.5;
+    font-weight: 400;
+    color: #2D3132; }
+
 .mon-section {
   padding-top: 5rem;
   padding-bottom: 2rem; }
@@ -8413,58 +8465,37 @@ textarea.form-control-lg {
     padding-bottom: 1rem;
     margin-top: 2rem; }
 
-.page .navbar-bunner-message-top {
-  background-color: #CBDCFF;
-  align-self: stretch; }
-  .page .navbar-bunner-message-top .header-message .header-message-icon-image-like {
-    margin: auto;
-    transform: rotate(-30deg); }
-  .page .navbar-bunner-message-top .header-message .header-message-icon-image-dress {
-    margin: auto;
-    transform: rotare(30deg); }
-  .page .navbar-bunner-message-top .header-message .header-message-text {
-    font-family: Stolzl;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: #0F1A34;
-    margin-top: calc(16px/4);
-    margin-bottom: calc(16px/4); }
-
-.page .page__header .select-language {
-  border: none; }
-
-.page .page__header .btn-added-product {
-  background-color: #2d3132;
-  padding: 10px, 20px, 10px, 20px;
-  border-radius: 4px; }
-
-.page .page__header .navbar-search-input {
-  border: 1.6px solid #e0e3e3;
-  border-radius: 4px; }
-  .page .page__header .navbar-search-input .navbar-header-icon-search {
-    width: 20px;
-    height: 20px; }
-  .page .page__header .navbar-search-input .navbar-input-space {
+.page {
+  font-family: "Poppins"; }
+  .page .navbar-bunner-message-top {
+    background-color: #CBDCFF;
+    align-self: stretch; }
+    .page .navbar-bunner-message-top .header-message .header-message-icon-image-like {
+      margin: auto;
+      transform: rotate(-30deg); }
+    .page .navbar-bunner-message-top .header-message .header-message-icon-image-dress {
+      margin: auto;
+      transform: rotare(30deg); }
+    .page .navbar-bunner-message-top .header-message .header-message-text {
+      font-family: Stolzl;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      color: #0F1A34;
+      margin-top: calc(16px/4);
+      margin-bottom: calc(16px/4); }
+  .page .page__header .select-language {
     border: none; }
-
-.page .banner .banner-breadcrumb .breadcrumb-item {
-  font-style: normal;
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 1.5;
-  color: #2d3132;
-  text-decoration: none; }
-
-.page .banner .banner-breadcrumb .active {
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 1.5;
-  color: #747778; }
-
-.page .banner .banner-title-breadcrumb-item-active .banner-title-breadcrumb-item-active-text {
-  font-size: 28px;
-  line-height: 1.5;
-  font-weight: 400;
-  color: #2D3132; }
+  .page .page__header .btn-added-product {
+    background-color: #2d3132;
+    padding: 10px, 20px, 10px, 20px;
+    border-radius: 4px; }
+  .page .page__header .navbar-search-input {
+    border: 1.6px solid #e0e3e3;
+    border-radius: 4px; }
+    .page .page__header .navbar-search-input .navbar-header-icon-search {
+      width: 20px;
+      height: 20px; }
+    .page .page__header .navbar-search-input .navbar-input-space {
+      border: none; }
 

@@ -1,0 +1,67 @@
+.banner {
+  .banner-breadcrumb {
+    .breadcrumb-item{
+      font-style: normal;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 1.5;
+      color: #2d3132;
+      text-decoration: none;
+    }
+    .active {
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 1.5;
+      color: #747778;
+    }
+  }
+
+  .banner-filter-product {
+    padding-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+
+    .banner-filter-product-text {
+      font-size: 22px;
+      font-weight: 400;
+      line-height: 1.5;
+      color: #5c5f60;
+    }
+
+    .banner-filter-product-select{
+      display: flex;
+      margin-left: auto;
+      margin-right: 1rem;
+      justify-content: space-between;
+      align-self: center;
+      align-items: center;
+      .banner-filter-product-select-list {
+        font-size: 12px;
+        display: block;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #5c5f60;
+        margin-top: auto;
+        margin-bottom: auto;
+        padding-left: 1rem;
+        padding-right: 1rem;
+      }
+
+      .banner-filter-product-select-form {
+        border-radius: 100px;
+        background: #EFF1F1;
+      }
+    }
+  }
+
+  .banner-title-breadcrumb-item-active{
+    padding-bottom: 1rem;
+    .banner-title-breadcrumb-item-active-text {
+      font-size: 28px;
+      line-height: 1.5;
+      font-weight: 400;
+      color: #2D3132;
+    }
+  }
+
+}

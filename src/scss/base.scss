@@ -1,10 +1,14 @@
 @import "bootstrap/scss/bootstrap";
 
-@import "./modules/_section.scss";
+@import "./modules/banner.scss";
+
+@import "./modules/section.scss";
 
 @import "./modules/footer.scss";
 
 .page {
+  font-family: "Poppins";
+
   .navbar-bunner-message-top {
     background-color: #CBDCFF;
     align-self: stretch;
@@ -56,32 +60,4 @@
     }
   }
 
-  .banner {
-    .banner-breadcrumb {
-      .breadcrumb-item{
-        font-style: normal;
-        font-size: 12px;
-        font-weight: 400;
-        line-height: 1.5;
-        color: #2d3132;
-        text-decoration: none;
-      }
-      .active {
-        font-size: 12px;
-        font-weight: 400;
-        line-height: 1.5;
-        color: #747778;
-      }
-    }
-
-    .banner-title-breadcrumb-item-active{
-      .banner-title-breadcrumb-item-active-text {
-        font-size: 28px;
-        line-height: 1.5;
-        font-weight: 400;
-        color: #2D3132;
-      }
-    }
-
-  }
 }

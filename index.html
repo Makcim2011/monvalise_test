@@ -5,6 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel='stylesheet' href='dist/style.css'>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap" rel="stylesheet">
   <title>monvalise</title>
 </head>
 <body class="page">
@@ -16,7 +17,9 @@
       <span>
         <img class="header-message-icon-image-dress" src="src/images/image 18.svg" alt="dress image" style="width: 24px; height: 24px;">
       </span>
-      <span><p class="header-message-text">Брендовий верхній одяг від 899 грн</p></span>
+      <span>
+        <p class="header-message-text">Брендовий верхній одяг від 899 грн</p>
+      </span>
 
     </div>
   </div>
@@ -144,7 +147,7 @@
     </div>
   </header>
 
-  <footer class="banner">
+  <section class="banner">
     <div class="container">
       <div class="banner-breadcrumb mt-4 mb-2">
         <nav aria-label="breadcrumb">
@@ -158,6 +161,42 @@
       <div class="banner-title-breadcrumb-item-active">
         <p class="banner-title-breadcrumb-item-active-text">Каталог одягу</p>
       </div>
+      <div class="banner-filter-product">
+        <p class="banner-filter-product-text">
+          Фільтри
+        </p>
+        <div class="nav-item dropdown banner-filter-product-select">
+          <span>
+            <p class="banner-filter-product-select-list text-nowrap">
+              Сортувати за:
+            </p>
+          </span>
+<!-- 
+          <div class="btn-group">
+            <button class="dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <div class="d-flex">
+                <p>За замовчуванням</p>
+                <img class="navbar-header-menu-avatar my-auto ms-1" src="src/images/s-bottom.svg" style="width: 12px; height: 12px;">
+              </div>
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Від більшого до меншого</a></li>
+              <li><a class="dropdown-item" href="#">Від меншого до більшого</a></li>
+              <li><a class="dropdown-item" href="#">За рейтингом</a></li>
+              <li><a class="dropdown-item" href="#">Вибране</a></li>
+            </ul>
+          </div> -->
+          
+          <select class="form-select form-select-sm banner-filter-product-select-form" aria-label=".form-select-sm example">
+            <option selected>За замовчуванням</option>
+            <option value="1">від більшого до меншого</option>
+            <option value="2">від меншого до більшого</option>
+          </select>
+
+
+        </div>
+      </div>
+
       <div class="d-flex">
         <div class="row">
           <div class="col-3">
