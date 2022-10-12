@@ -8389,6 +8389,30 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important; } }
 
+.mon-section {
+  padding-top: 5rem;
+  padding-bottom: 2rem; }
+
+.monvalise-footer {
+  background: #EFF1F1; }
+  .monvalise-footer .monvalise-footer-link-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #2d3132; }
+  .monvalise-footer .moncalise-footer-spacing {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #C4C7C7; }
+  .monvalise-footer .monvalise-footer-brand-text {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.5;
+    color: #2D3132;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-top: 2rem; }
+
 .page .navbar-bunner-message-top {
   background-color: #CBDCFF;
   align-self: stretch; }

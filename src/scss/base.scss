@@ -1,5 +1,9 @@
 @import "bootstrap/scss/bootstrap";
 
+@import "./modules/_section.scss";
+
+@import "./modules/footer.scss";
+
 .page {
   .navbar-bunner-message-top {
     background-color: #CBDCFF;
