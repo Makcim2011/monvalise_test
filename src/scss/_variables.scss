@@ -1,0 +1,22 @@
+@import "bootstrap/scss/variables";
+
+$pagination-color: #5C5F60;
+
+$pagination-border-radius: 100px;
+$pagination-border-width:  1.6px;
+$pagination-border-color: #C4C7C7;
+$pagination-font-size: 10px;
+
+$pagination-active-bg: white;
+
+$pagination-active-color: #2D3132;
+// $pagination-hover-color: #2D3132;
+// $pagination-focus-bg: #2D3132;
+// $pagination-hover-border-color:#2D3132;
+// $pagination-focus-color: #2D3132;
+
+
+$pagination-hover-bg: white;
+$pagination-active-border-color: #2D3132;
+
+@import "bootstrap";
